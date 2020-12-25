@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+}
+
+.grid{
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;  
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.tetrisPiece {
+    background-color: blue;
+}
+#mini-grid div{
+    width: 20px;
+    height: 20px;
+}
+#mini-grid{
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
